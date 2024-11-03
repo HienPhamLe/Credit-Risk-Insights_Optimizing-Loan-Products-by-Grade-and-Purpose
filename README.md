@@ -10,13 +10,13 @@ Insights and recommendations are provided on the following key areas:
 - **Purpose-Based Performance**: Analysis of loan performance by Purpose to identify high-risk categories.  
 - **Interest Rate Optimization**: Assessment of how different interest rate levels affect default rates, enabling better risk-adjusted pricing strategies.
 
-An interactive Power BI dashboard can be downloaded [here](https://app.powerbi.com/groups/me/reports/47bb9f14-9a87-492a-8b24-948a12c2f811/8f03a32be0be0e34306b?experience=power-bi "target=_blank")
+An interactive Power BI dashboard can be downloaded [here](https://app.powerbi.com/groups/me/reports/47bb9f14-9a87-492a-8b24-948a12c2f811/8f03a32be0be0e34306b?experience=power-bi "target=_blank").
 
-The SQL queries utilized to inspect and clean the data can be found here.
+The SQL queries utilized to inspect the data can be found [here](SQL_initial_checks.sql).
 
-The SQL queries used to analyze the data and generate insights can be found here.
+The SQL queries used to clean the data can be found [here](SQL_clean_and_transform.sql).
 
-Targeted SQL queries for specific business questions are available here.
+
 ## Key Questions
 1. Tỷ lệ vỡ nợ của các nhóm khách hàng là bao nhiêu ở các nhóm sản phẩm chia theo khoản vay và lãi suất?
 2. Tỷ lệ vỡ nợ theo các mục đích vay là bao nhiêu ở các nhóm sản phẩm (theo khoản vay và lãi suất)?
