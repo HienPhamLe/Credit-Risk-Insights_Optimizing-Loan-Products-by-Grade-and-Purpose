@@ -13,7 +13,7 @@ An interactive Power BI dashboard can be downloaded [here](https://app.powerbi.c
 ## Data Structure & Preparation
 The Lending Club Loan data is contained entirely in a single table with a total of 2,260,668 rows. Within the scope of this project’s analysis, we extract the columns as listed below.
 
-![](images/data_structure.PNG)
+![](images/data_structure.png)
 
 Prior to beginning the analysis, various quality checks were conducted for control and familiarization with the datasets.  
 The Python and Spark code used for ETL of data from CSV files into the MySQL Database can be found [here](etl_csv_to_mysql.ipynb).  
