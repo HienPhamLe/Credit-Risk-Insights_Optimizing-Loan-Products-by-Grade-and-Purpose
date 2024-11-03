@@ -26,8 +26,10 @@ The SQL queries used to clean the data can be found [here](SQL_clean_and_transfo
   
 ![](images/overview_1.png)
 
-
 - The default rate increases progressively across credit grades from A1 to G5. The average interest rate in these groups is higher than the average default rate for grades A through C, similar for grade D, and lower for grades E through G.
+
+  ![](images/overview_1.png)
+  
 - The distribution of loan amounts by purpose shows significant variation, with a concentration in the top three: debt consolidation at approximately $20 billion, credit card at around $8 billion, and home improvement at about $2 billion. While credit card and home improvement rank in the lower range for default rates, debt consolidation ranks in the top 5 with a default rate of 12.6% (above the average of 11.6%).
 - Most loan purposes have an average interest rate higher than the default rate; however, small business is an exception with a default rate of 18.1%, significantly higher than the average interest rate of 15.27%.
 
