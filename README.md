@@ -22,10 +22,11 @@ The SQL queries used to clean the data can be found [here](SQL_clean_and_transfo
 
 ## Key Insights
 - The average loan amount stands at $15.04K, with an average interest rate of 13.09% and an average default rate of 11.6%.
+- Low Amount loans (under $5,000) represent an exceptionally low proportion, accounting for only 1.99% of the total loan volume. However, they exhibit the lowest default rate compared to Medium Amount loans ($5,000 - $15,000) and High Amount loans (over $15,000), with a lower default rate across all three interest rate tiers (low: <10%, medium: 10-20%, and high: >20%).
   
 ![](images/overview_1.png)
 
-- Low Amount loans (under $5,000) represent an exceptionally low proportion, accounting for only 1.99% of the total loan volume. However, they exhibit the lowest default rate compared to Medium Amount loans ($5,000 - $15,000) and High Amount loans (over $15,000), with a lower default rate across all three interest rate tiers (low: <10%, medium: 10-20%, and high: >20%).
+
 - The default rate increases progressively across credit grades from A1 to G5. The average interest rate in these groups is higher than the average default rate for grades A through C, similar for grade D, and lower for grades E through G.
 - The distribution of loan amounts by purpose shows significant variation, with a concentration in the top three: debt consolidation at approximately $20 billion, credit card at around $8 billion, and home improvement at about $2 billion. While credit card and home improvement rank in the lower range for default rates, debt consolidation ranks in the top 5 with a default rate of 12.6% (above the average of 11.6%).
 - Most loan purposes have an average interest rate higher than the default rate; however, small business is an exception with a default rate of 18.1%, significantly higher than the average interest rate of 15.27%.
