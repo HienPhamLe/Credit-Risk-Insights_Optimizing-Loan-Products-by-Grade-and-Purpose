@@ -25,6 +25,7 @@ The SQL queries used to clean the data can be found [here](SQL_clean_and_transfo
 
 ## Data Structure & Initial Checks
 
+
 ## Executive Summary
 ### Borrower Risk Assessment
 ### Purpose-Based Performance
