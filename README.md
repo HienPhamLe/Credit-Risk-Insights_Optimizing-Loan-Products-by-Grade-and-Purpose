@@ -12,9 +12,7 @@ Insights and recommendations are provided on the following key areas:
 
 An interactive Power BI dashboard can be downloaded [here](https://app.powerbi.com/groups/me/reports/47bb9f14-9a87-492a-8b24-948a12c2f811/8f03a32be0be0e34306b?experience=power-bi "target=_blank").
 
-The SQL queries utilized to inspect the data can be found [here](SQL_initial_checks.sql).
 
-The SQL queries used to clean the data can be found [here](SQL_clean_and_transform.sql).
 
 
 ## Key Questions
@@ -23,7 +21,15 @@ The SQL queries used to clean the data can be found [here](SQL_clean_and_transfo
 3. Nhóm khách hàng và mục đích vay nào có tỷ lệ vỡ nợ thấp có thể đẩy mạnh cho vay?
 4. Nhóm khách hàng và mục đích vay nào có tỷ lệ vỡ nợ cao cần hạn chế hoặc điều chỉnh sản phẩm cho phù hợp?
 
-## Data Structure & Initial Checks
+## Data Structure & Preparation
+The Lending Club Loan data is contained entirely in a single table with a total of 2,260,668 rows. Within the scope of this project’s analysis, we extract the columns as listed below.
+
+![](images/data_structure.PNG)
+
+Prior to beginning the analysis, various quality checks were conducted for control and familiarization with the datasets.  
+The SQL queries utilized to inspect and perform quality checks can be found [here](SQL_initial_checks.sql).  
+The SQL queries used to clean the data can be found [here](SQL_clean_and_transform.sql).
+
 
 
 ## Executive Summary
