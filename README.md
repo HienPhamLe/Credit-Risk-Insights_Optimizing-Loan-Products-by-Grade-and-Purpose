@@ -35,8 +35,15 @@ The SQL queries used to clean the data can be found [here](SQL_clean_and_transfo
 
 ![](images/purpose_1.png)
 
-
 ## Recommendations
+Based on the key insights, here are some targeted recommendations:
+1. Consider Expanding Low Amount Loans: Given that loans under $5,000 have the lowest default rates across all interest rate tiers, the company could explore increasing the proportion of low-amount loans. This could help reduce overall default risk while providing credit access to lower-risk borrowers.
+2. Review and Adjust Lending Criteria for High-Risk Grades (E to G): Since default rates exceed interest rates for grades E through G and show a widening gap, it may be beneficial to tighten the lending criteria for these grades. This could involve increasing requirements for borrowers in these credit grades, such as stricter income or credit history checks, or limiting loan amounts available to them.
+3. Optimize Debt Consolidation Loans: Debt consolidation is the largest loan purpose by volume, but it has a default rate above the average. Given the high volume and default rate, consider refining credit policies for debt consolidation loans, potentially by segmenting borrowers within this purpose to identify those at higher risk. This can improve loan performance while maintaining a substantial share of the loan volume.
+4. Implement Caution in Small Business Loans: Small business loans exhibit a default rate significantly higher than the average interest rate, suggesting they carry a high risk relative to returns. The company could consider stricter credit evaluations for small business loans or implementing higher interest rates to compensate for the elevated risk. Alternatively, limiting the total exposure to this category might help mitigate potential losses.
+5. Encourage Medium Amount Loans for Moderate Risk: Medium amount loans ($5,000 - $15,000) account for a substantial proportion of the loan volume and maintain a manageable default rate. The company could consider promoting this loan range to balance loan volume growth with risk management.
+
+By implementing these strategies, the company can better align its loan portfolio with risk and return objectives, ultimately improving overall loan performance and profitability.
 
 ## Assumptions and Caveats
 
