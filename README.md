@@ -10,15 +10,6 @@ Insights and recommendations are provided on the following key areas:
   
 An interactive Power BI dashboard can be downloaded [here](https://app.powerbi.com/groups/me/reports/47bb9f14-9a87-492a-8b24-948a12c2f811/8f03a32be0be0e34306b?experience=power-bi "target=_blank").
 
-
-
-
-## Key Questions
-1. Tỷ lệ vỡ nợ của các nhóm khách hàng là bao nhiêu ở các nhóm sản phẩm chia theo khoản vay và lãi suất?
-2. Tỷ lệ vỡ nợ theo các mục đích vay là bao nhiêu ở các nhóm sản phẩm (theo khoản vay và lãi suất)?
-3. Nhóm khách hàng và mục đích vay nào có tỷ lệ vỡ nợ thấp có thể đẩy mạnh cho vay?
-4. Nhóm khách hàng và mục đích vay nào có tỷ lệ vỡ nợ cao cần hạn chế hoặc điều chỉnh sản phẩm cho phù hợp?
-
 ## Data Structure & Preparation
 The Lending Club Loan data is contained entirely in a single table with a total of 2,260,668 rows. Within the scope of this project’s analysis, we extract the columns as listed below.
 
@@ -31,6 +22,9 @@ The SQL queries used to clean the data can be found [here](SQL_clean_and_transfo
 
 ## Key Insights
 - The average loan amount stands at $15.04K, with an average interest rate of 13.09% and an average default rate of 11.6%.
+  
+![](images/overview_1.png)
+
 - Low Amount loans (under $5,000) represent an exceptionally low proportion, accounting for only 1.99% of the total loan volume. However, they exhibit the lowest default rate compared to Medium Amount loans ($5,000 - $15,000) and High Amount loans (over $15,000), with a lower default rate across all three interest rate tiers (low: <10%, medium: 10-20%, and high: >20%).
 - The default rate increases progressively across credit grades from A1 to G5. The average interest rate in these groups is higher than the average default rate for grades A through C, similar for grade D, and lower for grades E through G.
 - The distribution of loan amounts by purpose shows significant variation, with a concentration in the top three: debt consolidation at approximately $20 billion, credit card at around $8 billion, and home improvement at about $2 billion. While credit card and home improvement rank in the lower range for default rates, debt consolidation ranks in the top 5 with a default rate of 12.6% (above the average of 11.6%).
