@@ -46,6 +46,11 @@ Based on the key insights, here are some targeted recommendations:
 By implementing these strategies, the company can better align its loan portfolio with risk and return objectives, ultimately improving overall loan performance and profitability.
 
 ## Assumptions and Caveats
+- Data Quality: The analysis assumes that the provided data is accurate, up-to-date, and representative of Lending Club’s overall loan portfolio. Any inaccuracies may impact findings.
+- Loan Grades and Interest Rates as Risk Indicators: We assume loan grades and interest rates reflect borrower risk profiles accurately. If not, comparisons of default rates and interest rates may be skewed.
+- Limited Historical and External Data: The dataset may lack long-term trends or factors affecting defaults, including borrower circumstances or market demand for certain loan types.
+- Policy Consistency Across Purposes: We assume uniform credit policies for each loan purpose. If policies vary, it could affect default rates across purposes.
+- Potential Policy and Market Changes: Lending Club may adjust credit policies or respond to market dynamics, which could alter risk profiles over time, potentially impacting the relevance of our recommendations.
 
 
 
