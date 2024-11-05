@@ -1,4 +1,4 @@
-# Credit Risk Insights: Optimizing Loan Products by Grade and Purpose [Lending Club]
+# Credit Risk Insights: Optimizing Loan Products by Grade and Purpose
 ![](images/overview_page.png)
 
 ## Project Overview
